@@ -53,7 +53,7 @@ if (isset($update['callback_query']) && $update['callback_query']['data'] == 'pa
     $title = 'خرید محصول';
     $description = 'خرید محصول با استفاده از Stars';
     $payload = 'unique_payload_123';
-    $currency = 'STARS'; // نوع ارز
+    $currency = 'XTR'; // نوع ارز
     $amount = 1000; // مقدار Stars
     $provider_token = ''; // این پارامتر برای پرداخت با Stars باید خالی باشد
 
